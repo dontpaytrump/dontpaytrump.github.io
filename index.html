@@ -181,11 +181,70 @@
           font-size:20px;
           font-family: 'Roboto', sans-serif;
         }
-        @media (max-width: 640px) {
-          body {
-            left: 10px;
-            }
+        #deets {
+          background-color: #ffecd2;
+        }
+        #deets-table {
+          margin: auto;
+          width: 70%;
+          table-layout: fixed;
+          color: #d98715;
+          padding: 100px 0;
+          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          vertical-align: top;
+        }
+        #deets-table td {
+          vertical-align: top;
+          padding: 50px 15px;
+          word-wrap: break-word;
+          width: 33%;
+        }
+        .deets-subhead {
+          font-size: 26px;
+        }
+        @media (max-width: 1200px) {
+          #top {
+            width: 80%;
           }
+          #pero-why {
+            width:80%;
+          }
+          #footer {
+            width: 80%;
+          }
+          #deets-table {
+            width: 80%
+          }
+        }
+        @media (max-width: 1050px) {
+          #top {
+            width: 90%;
+          }
+          #pero-why {
+            width:90%;
+          }
+          #footer {
+            width: 90%;
+          }
+          #deets-table {
+            width: 90%
+          }
+        }
+        @media (max-width: 900px) {
+          #top {
+            width: 95%;
+          }
+          #pero-why {
+            width:95%;
+          }
+          #footer {
+            width: 95%;
+          }
+          #deets-table {
+            width: 95%
+          }
+        }
       </style>
   </head>
 
@@ -199,6 +258,31 @@
       </p>
       <a class="babomba" href="https://chrome.google.com/webstore/detail/dont-pay-trump/hnabeofjicpfonofmomeehhaecnfnnhg">GET THE PLUGIN</a>
       <img id="screenshawt" src="screen.png" />
+    </div>
+    <div id="deets">
+      <table id="deets-table">
+        <tr>
+          <td><span class="deets-subhead">Get notified</span>
+            <br />
+            <br />The plugin contains a list of Trump supporting websites. When you visit one of those websites, you’re notified with an overlay on the page.</td>
+          <td><span class="deets-subhead">Tweet for change</span>
+            <br />
+            <br />The overlay provides a link to tweet at the owners of the website to voice your concerns. The plugin will never post on your behalf.</td>
+          <td><span class="deets-subhead">Visit alternatives</span>
+            <br />
+            <br />We researched top competitors of the companies on the boycott list and made sure they weren’t affiliated with Trump.</td>
+        </tr>
+        <tr>
+          <td><span class="deets-subhead">Settings</span>
+            <br />
+            <br />You always have the option to disable the plugin on any site. Click on the plugin icon in your extension bar update your settings and prevent the overlay from showing on that site again until you re-enable it.</td>
+          <td><span class="deets-subhead">Privacy</span>
+            <br />
+            <br />Don’t Pay Trump does not track your browser activity or store any private information about you. We do use Google Analytics to collect anonymous usage statistics to help improve user experience, but you can opt out at <a href="http://tools.google.com/dlpage/gaoptout">http://tools.google.com/<wbr>dlpage/gaoptout</a>.</td>
+          <td><span class="deets-subhead">Contribute</span>
+            <br />
+            <br />Please send us feedback and help us keep the plugin up to date. Businesses who drop Trump products and relationships will be removed from the list. Contact us through our page in the Chrome Web Store under the Support tab or at dontpaytrump@gmail.com.</td>
+      </table>
     </div>
     <div id="bottom">
       <img id="stubb" src="stubb.png" />
